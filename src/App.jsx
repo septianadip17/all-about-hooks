@@ -19,12 +19,12 @@ const App = () => {
         <State />
         <Effect />
         <Ref />
-        <Memo />
+        {/* <Memo />
         <Callback />
         <Context />
         <Reducer />
         <LayoutEffect />
-        <Custom />
+        <Custom /> */}
       </div>
     </div>
   );
