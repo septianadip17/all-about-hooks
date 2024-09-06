@@ -16,14 +16,22 @@ const Effect = () => {
     }, 2000);
   }, [count, name]);
 
-  // alert hehe
-  useEffect(() => {
-    alert("Halo hehee");
-  }, []); // [] -> hanya dijalankan sekali
+  // // alert hehe
+  // useEffect(() => {
+  //   alert("Halo hehee");
+  // }, []); // [] -> hanya dijalankan sekali
 
   // perubahan nama pacar sesuai kondisi
   useEffect(() => {
     setNamaPacar("Jodi");
+  }, [pacarSaya]);
+
+  useEffect(() => {
+    if (pacarSaya === 1) {
+      setNamaPacar("Jodi");
+    } else {
+      setNamaPacar("Uhuy");
+    }
   }, [pacarSaya]);
 
   return (
