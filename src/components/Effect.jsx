@@ -4,6 +4,7 @@ const Effect = () => {
   const [count, setCount] = useState(0);
   const [name, setName] = useState("GreatStack");
 
+  // 
   useEffect(() =>{
     setTimeout(() =>{
       setCount(count => count + 1);

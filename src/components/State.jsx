@@ -28,7 +28,10 @@ const State = () => {
   const increaseCount = () => {
     setCount(count + 1);
   };
-  
+
+  // pacar
+  const [pacarSaya, setPacarSaya] = useState(1);
+
   return (
     <div className="border-4 border-yellow-400 w-screen mx-auto container p-5">
       <h1 className="text-3xl">useState</h1>
@@ -55,6 +58,21 @@ const State = () => {
       <div className="flex gap-2 items-center justify-center m-2">
         <h1>Counter: {count}</h1>
         <Buttons name="Increase Count" onClick={increaseCount} />
+      </div>
+
+      <hr className="border-2 border-green-500" />
+
+      {/* Pacar */}
+      <div className="flex gap-2 items-center justify-center m-2">
+        <h1>saya memiliki: {pacarSaya} pacar</h1>
+        <Buttons
+          onClick={() => setPacarSaya((prev) => prev + 1)}
+          name="tambah pacar"
+        />
+        <Buttons
+          onClick={() => setPacarSaya((prev) => prev - 1)}
+          name="putuskan pacar"
+        />
       </div>
     </div>
   );
