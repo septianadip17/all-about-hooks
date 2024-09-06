@@ -10,12 +10,15 @@ const Ref = () => {
       <hr className="border-2 border-green-500" />
       <div className="flex gap-2 text-center items-center justify-center m-2">
         <p className="w-2/3 text-justify">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi, veniam
-          vero? Fugit delectus enim magnam. Ratione harum temporibus natus, sed
-          inventore dignissimos iusto doloribus tempora delectus quisquam earum
-          enim quo, expedita asperiores tempore molestiae cumque commodi
-          corporis animi ullam. Magni eos consequatur, alias sapiente expedita
-          et ipsum perferendis odio quae.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. A sequi
+          maxime harum, commodi mollitia corrupti ea sunt aspernatur illum
+          perferendis nisi quas porro nam ipsum, deleniti et asperiores,
+          consectetur facere officiis ullam. Dolorum, totam, deserunt aut
+          consequuntur blanditiis amet repellendus deleniti quidem ut delectus
+          voluptate error ipsam perferendis assumenda iste mollitia vitae?
+          Aperiam, laudantium libero saepe consequatur voluptatem incidunt vero,
+          possimus dolor illo quas iusto qui cum suscipit ipsum doloribus
+          obcaecati, praesentium dolorem fugiat exercitationem.
         </p>
       </div>
       <div className="flex items-center">
