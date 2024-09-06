@@ -7,6 +7,7 @@ const Effect = () => {
 
   // pacar
   const [pacarSaya, setPacarSaya] = useState(1);
+  const [namaPacar, setNamaPacar] = useState("");
 
   // counter
   useEffect(() => {
@@ -18,7 +19,12 @@ const Effect = () => {
   // alert hehe
   useEffect(() => {
     alert("Halo hehee");
-  }, []);
+  }, []); // [] -> hanya dijalankan sekali
+
+  // perubahan nama pacar sesuai kondisi
+  useEffect(() => {
+    setNamaPacar("Jodi");
+  }, [pacarSaya]);
 
   return (
     <div className="border-4 border-yellow-400 w-screen mx-auto container p-5">
@@ -32,16 +38,19 @@ const Effect = () => {
       <hr className="border-2 border-green-500" />
 
       {/* Pacar */}
-      <div className="flex gap-2 items-center justify-center m-2">
+      <div className="flex flex-col gap-2 items-center justify-center m-2">
+        <h5>nama pacar: {namaPacar}</h5>
         <h1>saya memiliki: {pacarSaya} pacar</h1>
-        <Buttons
-          onClick={() => setPacarSaya((prev) => prev + 1)}
-          name="tambah pacar"
-        />
-        <Buttons
-          onClick={() => setPacarSaya((prev) => prev - 1)}
-          name="putuskan pacar"
-        />
+        <div className="flex gap-2">
+          <Buttons
+            onClick={() => setPacarSaya((prev) => prev + 1)}
+            name="tambah pacar"
+          />
+          <Buttons
+            onClick={() => setPacarSaya((prev) => prev - 1)}
+            name="putuskan pacar"
+          />
+        </div>
       </div>
     </div>
   );
