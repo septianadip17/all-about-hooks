@@ -2,7 +2,7 @@ import React from 'react'
 
 const Memo = () => {
   return (
-    <div>Memo</div>
+    <div className='border-4 border-yellow-400 w-screen mx-auto container'>Memo</div>
   )
 }
 
