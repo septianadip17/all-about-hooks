@@ -35,7 +35,7 @@ const Effect = () => {
   }, [pacarSaya]);
 
   return (
-    <div className="border-4 border-yellow-400 w-screen mx-auto container p-5">
+    <div className="border-4 border-red-400 w-screen mx-auto container p-5">
       <h1 className="text-3xl">useEffect</h1>
 
       {/*  */}
