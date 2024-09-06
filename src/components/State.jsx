@@ -30,7 +30,7 @@ const State = () => {
       {/* Favorite color */}
       <div className="flex gap-2 items-center justify-center m-2">
         <h1>My Favourite color is {color}</h1>
-        <Buttons name="Change Color" action={changeColor}/>
+        <Buttons name="Change Color" onClick={changeColor}/>
       </div>
 
       <hr className=" border-2 border-green-500" />
@@ -38,7 +38,7 @@ const State = () => {
       <div className="flex gap-2 items-center justify-center m-2">
         <h1>My Favourite car is {car.brand}.</h1>
         <h2>It is a {car.model} from {car.year} with {car.color} color {car.brand}</h2>
-        <Buttons name="Change Brand"/>
+        <Buttons name="Change Brand" onClick={changeBrand} />
       </div>
 
     </div>
