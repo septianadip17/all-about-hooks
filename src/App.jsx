@@ -10,7 +10,7 @@ import State from "./components/State";
 
 const App = () => {
   return (
-    <div className="container justify-center items-center space-y-5 mt-20 mx-auto">
+    <div className="container justify-center items-center space-y-5 my-20 mx-auto">
       <h1 className="text-center text-purple-500 text-5xl font-bold ">
         Hello, this is all about hooks
       </h1>
