@@ -19,8 +19,8 @@ const App = () => {
         <State />
         <Effect />
         <Ref />
-        {/* <Memo />
-        <Callback />
+        <Memo />
+        {/*<Callback />
         <Context />
         <Reducer />
         <LayoutEffect />
