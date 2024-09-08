@@ -1,3 +1,5 @@
+// useCallback dalam React adalah hook yang bertujuan untuk mengoptimalkan kinerja dengan mengurangi jumlah re-render yang tidak perlu pada komponen lain di dalamnya.
+
 import React from "react";
 
 const Callback = () => {
