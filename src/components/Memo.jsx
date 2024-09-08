@@ -1,4 +1,7 @@
+// useMemo adalah hook yang disediakan oleh React untuk mengoptimalkan performa aplikasi. Hook ini memungkinkan komponen untuk "mengingat" hasil perhitungan yang berat atau kompleks, sehingga perhitungan tersebut tidak perlu diulang pada setiap render.
+
 import React, { useState, useMemo } from "react";
+import Buttons from "./Buttons";
 
 const Memo = () => {
   const [number, setNumber] = useState(0);
@@ -23,7 +26,10 @@ const Memo = () => {
           className="w-2/3 border rounded p-2 text-black"
         />
         <h1 className="text-5xl">Cube of the number: {result}</h1>
+        <Buttons name="Counter++" onClick={() => setCounter(counter + 1)} />
+        <h2 className="text-xl">Counter: {counter}</h2>
       </div>
+      <hr className="border-2 border-green-500 my-4" />
     </div>
   );
 };
