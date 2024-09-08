@@ -20,8 +20,8 @@ const App = () => {
         <Effect />
         <Ref />
         <Memo />
-        {/*<Callback />
-        <Context />
+        <Callback />
+        {/* <Context />
         <Reducer />
         <LayoutEffect />
         <Custom /> */}
