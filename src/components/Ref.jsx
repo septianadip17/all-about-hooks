@@ -1,3 +1,5 @@
+// useref digunakan untuk mendapatkan data inputan atau mau loncat ke komponen mana
+
 import React, { useEffect, useState, useRef } from "react";
 
 const Ref = () => {
