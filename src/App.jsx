@@ -21,8 +21,8 @@ const App = () => {
         <Ref />
         <Memo />
         <Callback />
-        {/* <Context />
-        <Reducer />
+        <Context />
+        {/* <Reducer />
         <LayoutEffect />
         <Custom /> */}
       </div>
