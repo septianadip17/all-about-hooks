@@ -1,3 +1,4 @@
+/* eslint-disable react-refresh/only-export-components */
 import React from "react";
 
 const Header = () => {
@@ -5,4 +6,4 @@ const Header = () => {
   return <div className="">Header</div>;
 };
 
-export default Header;
+export default React.memo(Header);
