@@ -33,7 +33,7 @@ const State = () => {
   const [pacarSaya, setPacarSaya] = useState(1);
 
   return (
-    <div className="border-4 border-yellow-400 w-screen mx-auto container p-5">
+    <div className="border-4 border-yellow-400 container p-5">
       <h1 className="text-3xl">useState</h1>
       {/* Favorite color */}
       <div className="flex gap-2 items-center justify-center m-2">
