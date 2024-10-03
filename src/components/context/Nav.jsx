@@ -1,9 +1,12 @@
-import React from 'react'
+import React from "react";
+import Btn from "./Btn";
 
 const Nav = () => {
   return (
-    <div>Nav</div>
-  )
-}
+    <div className="nav">
+      <Btn />
+    </div>
+  );
+};
 
-export default Nav
+export default Nav;
