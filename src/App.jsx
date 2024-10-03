@@ -1,5 +1,5 @@
 import Callback from "./components/Callback";
-import Context from "./components/Context";
+import Context from "./components/context/Context";
 import Custom from "./components/Custom";
 import Effect from "./components/Effect";
 import LayoutEffect from "./components/LayoutEffect";
