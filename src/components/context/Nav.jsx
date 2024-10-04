@@ -3,9 +3,12 @@ import Btn from "./Btn";
 
 const Nav = () => {
   return (
-    <div className="nav">
-      <Btn />
-    </div>
+    <nav className="bg-gray-800 p-4 flex justify-between items-center shadow-md">
+      <div className="text-white text-lg font-bold">My App</div>
+      <div>
+        <Btn />
+      </div>
+    </nav>
   );
 };
 
